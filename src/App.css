@@ -1,0 +1,32 @@
+.App {
+  width: 100%; 
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  border:2px dashed black;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+.heading {
+  height: 80px;
+  background-color: rgba(3, 3, 3, 0.5); /* Semi-transparent dark background */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust font size as needed */
+  font-family: 'Poppins', Arial, sans-serif; /* Use Poppins font or fallback to Arial */
+}

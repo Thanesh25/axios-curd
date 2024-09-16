@@ -1,0 +1,62 @@
+/* UserList.css */
+
+.userList-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+  
+  .userList-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .userList-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .userList-table th,
+  .userList-table td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+    color: #333; /* Dark text color */
+  }
+  
+  .userList-table th {
+    background-color: #555; /* Dark gray background for table headers */
+    color: white; /* White text color for table headers */
+  }
+  
+  .userList-table button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    margin:3px;
+   
+   
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .userList-table button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .userList-table button:last-child {
+    margin-right: 0;
+   
+  }
+  
+  .userList-table button:last-child:hover {
+    background-color: #c82333; /* Darker red on hover for delete button */
+  }
+  
